@@ -11,14 +11,14 @@ import java.awt.Toolkit;
  *
  * @author pc gamer
  */
-public class ResulocaoTela extends javax.swing.JFrame {
+public class ResolucaoTela extends javax.swing.JFrame {
     
-    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(ResulocaoTela.class.getName());
+    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(ResolucaoTela.class.getName());
 
     /**
      * Creates new form ResulocaoTela
      */
-    public ResulocaoTela() {
+    public ResolucaoTela() {
         initComponents();
     }
 
@@ -111,7 +111,7 @@ public class ResulocaoTela extends javax.swing.JFrame {
         //</editor-fold>
 
         /* Create and display the form */
-        java.awt.EventQueue.invokeLater(() -> new ResulocaoTela().setVisible(true));
+        java.awt.EventQueue.invokeLater(() -> new ResolucaoTela().setVisible(true));
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
